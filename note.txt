@@ -1,0 +1,64 @@
+1.What is Yarn?
+
+Chatgpt:  Yarn is a package manager for Node.js applications. It was created by Facebook to address some of the limitations of the npm package manager, such as slow installation times and the lack of deterministic builds. Yarn uses a lockfile to ensure that the same packages are installed in the same way across different machines and environments.
+
+Yarn has a similar command-line interface to npm, but it offers some additional features such as parallel package installation, caching of packages to speed up installation times, and the ability to manage multiple registries. Yarn also supports workspaces, which allow you to manage multiple related packages in a single repository.
+
+Overall, Yarn is a popular alternative to npm and is widely used in the Node.js community.
+
+2.What is Vite?
+
+Chatgpt :  Vite is a build tool for web applications that focuses on fast development and optimized production builds. It was created by Evan You, the creator of the popular JavaScript framework Vue.js.
+
+Vite uses a development server that leverages native ES modules in modern browsers to provide fast, hot-reloading of changes during development. This means that changes to your code can be reflected instantly in the browser without the need for a full page refresh.
+
+Vite also optimizes the build process by using a modern build pipeline that leverages the native ES modules of modern browsers to generate optimized production builds. This results in smaller bundle sizes and faster load times for your web application.
+
+Vite is particularly well-suited for Vue.js applications, but it can be used with other web frameworks such as React and Angular as well. It is quickly gaining popularity in the web development community as a fast and efficient build tool.
+
+3.What is Node js?
+
+Chatgpt :  Node.js is an open-source, cross-platform, server-side JavaScript runtime environment. It was created by Ryan Dahl in 2009 and is built on top of the Google V8 JavaScript engine.
+
+Node.js allows developers to use JavaScript to write server-side applications, which was not possible before its release. It provides an event-driven, non-blocking I/O model, which makes it efficient and scalable for building network applications. Node.js is particularly well-suited for building real-time, data-intensive, and scalable applications such as chat applications, streaming services, and online games.
+
+Node.js comes with a rich set of built-in modules that allow developers to perform various tasks such as file I/O, networking, cryptography, and data streaming, among others. In addition, there is a large ecosystem of third-party modules available through the npm (Node Package Manager) registry, which makes it easy for developers to find and use packages to add functionality to their applications.
+
+Node.js has become increasingly popular over the years and is now widely used by developers for building web applications, command-line tools, and desktop applications, among other things.
+
+4.What is npm?
+
+Chatgpt :  npm (short for Node Package Manager) is a package manager for the Node.js JavaScript runtime environment. It is the default package manager for Node.js and is used by developers to install, share, and manage packages of reusable code.
+
+npm provides access to a large repository of over one million open-source packages, which can be installed with a single command. These packages can be used to add functionality to your Node.js application, such as libraries for working with databases, frameworks for building web applications, or utilities for parsing command-line arguments, among many others.
+
+npm also provides a mechanism for publishing your own packages to the npm registry, making it easy for others to use and contribute to your code.
+
+In addition to its core package management functionality, npm also provides tools for managing package versions, running scripts, and managing dependencies. It is an essential tool for Node.js developers and is widely used in the Node.js community.
+
+5.npm vs yarn?
+
+Chatgpt :  Yarn and npm are both package managers for the Node.js JavaScript runtime environment. While they have similar functionality, there are some key differences between the two.
+
+One of the main differences between Yarn and npm is their approach to package installation. Yarn uses a deterministic installation process, which means that the same packages will always be installed in the same way, regardless of the environment. This helps to ensure that your application will run consistently across different machines and environments. npm, on the other hand, does not provide this level of determinism by default, but it has added support for deterministic installs in recent versions.
+
+Another key difference between Yarn and npm is their performance. Yarn was created in part to address some of the performance issues with npm, such as slow installation times and poor caching. Yarn offers faster installation times and better caching than npm, making it a popular choice for developers who value performance.
+
+Yarn also provides some additional features that are not available in npm, such as the ability to manage multiple registries, parallel package installation, and workspaces for managing multiple related packages in a single repository.
+
+That being said, npm is still a widely used package manager in the Node.js community and has a large ecosystem of packages and tools. Ultimately, the choice between Yarn and npm will depend on your specific needs and preferences as a developer.
+
+6.What in the world are json files?
+
+Chatgpt : JSON (short for JavaScript Object Notation) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is a text-based format that uses a simple syntax to represent data as key-value pairs or as ordered lists of values.
+
+JSON is often used for data exchange between web applications and servers because it is easy to use, widely supported by programming languages, and can be easily parsed by web browsers using JavaScript.
+
+Ok but what?
+
+3.05.223 - As of now i think these are just user/client settings and default values for a variety of stuff , like basic details of a company(employeee numbers ,names ,etc)
+
+7.
+
+
+
